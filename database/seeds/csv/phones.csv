@@ -1,0 +1,71 @@
+id,number,type,phoneable_type,phoneable_id
+1,(704) 469-4123,work,Tsi\User,1
+2,(360) 601-6832,work,Tsi\User,2
+3,(704) 469-4130,work,Tsi\User,3
+4,(704) 469-4115,work,Tsi\User,4
+5,(704) 469-4137,work,Tsi\User,5
+6,(980) 475-2847,cell,Tsi\User,1
+7,(360) 601-6832,cell,Tsi\User,2
+8,(980) 475-1818,cell,Tsi\User,3
+9,(980) 475-0962,cell,Tsi\User,4
+10,(480) 650-3562,cell,Tsi\User,5
+11,(757) 705-0447,cell,Tsi\User,6
+12,(980) 253-9510,cell,Tsi\User,7
+13,(718) 344-9943,cell,Tsi\User,8
+14,5107,extension,Tsi\User,10
+15,5121,extension,Tsi\User,11
+16,5119,extension,Tsi\User,13
+17,5093,extension,Tsi\User,15
+18,5123,extension,Tsi\User,16
+19,5023,extension,Tsi\User,17
+20,5010,extension,Tsi\User,20
+21,5066,extension,Tsi\User,21
+22,5112,extension,Tsi\User,22
+23,5087,extension,Tsi\User,24
+24,5133,extension,Tsi\User,25
+25,5083,extension,Tsi\User,26
+26,5098,extension,Tsi\User,27
+27,5101,extension,Tsi\User,29
+28,5014,extension,Tsi\User,31
+29,5111,extension,Tsi\User,32
+30,5127,extension,Tsi\User,34
+31,5047,extension,Tsi\User,36
+32,5107,extension,Tsi\User,37
+33,5024,extension,Tsi\User,40
+34,5136,extension,Tsi\User,42
+35,5099,extension,Tsi\User,45
+36,5067,extension,Tsi\User,46
+37,(810) 577-1155,cell,Tsi\User,48
+38,(903) 521-6398,cell,Tsi\User,49
+39,(517) 927-0894,cell,Tsi\User,50
+40,(309) 429-0851,cell,Tsi\User,51
+41,(915) 242-3111,cell,Tsi\User,52
+42,(815) 275-2358,cell,Tsi\User,53
+43,(518) 688-5868,cell,Tsi\User,56
+44,(970) 219-7506,cell,Tsi\User,57
+45,(763) 244-4058,cell,Tsi\User,58
+46,(716) 255-1454,cell,Tsi\User,59
+47,(848) 333-4867,cell,Tsi\User,60
+48,(217) 853-5410,cell,Tsi\User,62
+49,(806) 543-7656,cell,Tsi\User,63
+50,(616) 366-1437,cell,Tsi\User,64
+51,(337) 278-0913,cell,Tsi\User,65
+52,(856) 261-4885,cell,Tsi\User,66
+53,(205) 283-3032,cell,Tsi\User,67
+54,(269) 599-3633,cell,Tsi\User,68
+55,(603) 828-9950,cell,Tsi\User,69
+56,(401) 241-9914,cell,Tsi\User,70
+57,(208) 954-3291,cell,Tsi\User,71
+58,(607) 725-8420,cell,Tsi\User,72
+59,(802) 440-2865,cell,Tsi\User,73
+60,(207) 219-9927,cell,Tsi\User,74
+61,(406) 220-0230,cell,Tsi\User,75
+62,(856) 816-7981,cell,Tsi\User,76
+63,(704) 578-5968,cell,Tsi\User,77
+64,(716) 449-1997,cell,Tsi\User,78
+65,(704) 665-0611,work,Tsi\User,77
+66,5077,extension,Tsi\User,77
+67,(704) 469-4150,work,Tsi\User,79
+68,(704) 469-4128,work,Tsi\User,80
+69,5128,extension,Tsi\User,79
+70,5016,extension,Tsi\User,80

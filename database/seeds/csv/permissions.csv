@@ -1,0 +1,24 @@
+id,name,label,enabled
+1,everything-except-maintain-code,Everything,1
+2,maintain-code,Maintain Code,0
+3,client-search,Client Search,1
+4,client-cancellation,Client Cancellation,1
+5,employee-list-management,Employee List Management,1
+6,store-provisioning,ECWID Provisioning,1
+7,store-upgrade,ECWID Upgrade/Downgrade,1
+8,store-cancellation,ECWID Cancellation,1
+9,audience-extension-go-live,Audience Extension Go Live,1
+10,audience-extension-cancellation,Audience Extension Cancellation,1
+11,directory-listing-provisioning,Yext Provisioning,1
+12,directory-listing-cancellation,Yext Cancellation,1
+13,user-role-management,User Management - Create & Edit Roles,1
+14,user-role-assignment,User Management - Assign Roles to Users,1
+15,user-permission-assignment,User Management - Override Permissions for Users,1
+16,payment-update,CC / ACH Update,1
+17,site-creation,Site Creation,1
+18,create-landing-page,Create Landing Page,1
+19,create-demo-site,Create Demo Site,1
+20,create-client-site,Create Client Site,1
+21,copy-from-client-site,Copy from Client Site,1
+22,copy-from-stock-site,Copy from Stock Site,1
+23,reserved,Reserved,0

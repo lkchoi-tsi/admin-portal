@@ -1,0 +1,47 @@
+#roles-datatable tbody td {
+    padding: 5px 0px;
+    text-align:center;
+}
+#roles-datatable th {
+    text-align:right;
+    padding: 5px;
+}
+#roles-datatable tbody {
+    overflow:auto;
+}
+tbody th, tbody td {
+    border: 1px #ddd solid;
+}
+th.rotate {
+    height: 140px;
+    white-space: nowrap;
+}
+th.rotate > div {
+    transform: translate(25px, -5px) rotate(315deg);
+    width: 30px;
+}
+th.rotate > div > span {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    z-index: 20;
+}
+thead th.rotate:nth-child(2n) {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAAq0lEQVRYhcXQ2Q3DMAwEUTr9d0wIyoeBxHFkicdyNQ08YI7eu+zotUXdBqvqBlhVW2ts+FSFvPqjUuGryoNvKgn+VxnwUC2Hn9RaeKIWwnO1Cl6qJbBFxcNGFQzbVSTsUmGwV8XAARUAx9QsHFZTcEaNw0k1COfVCAxR3TBK9cFA1QFjVSsMV01whbqGi9QFXKfO4FL1Ea5WxzBBHcAc9Q7T1B+YqX5hsioib7qh4MbGnI/VAAAAAElFTkSuQmCC');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+thead th.rotate:nth-child(2n) > div > span,
+tbody td:nth-child(2n) {
+    background: #f7f7f7;
+}
+.table-hover > tbody > tr:hover,
+.table-hover > tbody > tr:hover td {
+    background: #eef!important;
+}
+.qtip-th {
+    transform: translate(30px, 10px);
+}
+#roles-datatable tbody th a {
+    font-weight: normal;
+}

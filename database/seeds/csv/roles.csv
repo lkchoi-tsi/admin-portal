@@ -1,0 +1,19 @@
+id,name,label,enabled,hidden
+1,developer,Developer,1,1
+2,account-manager,Account Manager,1,0
+3,designer,Designer,1,0
+4,director,Director,1,0
+5,agency,Agency,1,0
+6,analyst,Analyst,1,0
+7,billing,Billing,1,0
+8,content,Content,1,0
+9,marketing,Marketing,1,0
+10,retention,Retention,1,0
+11,social-media-poster,Social Media Poster,1,0
+12,sales-rep,Sales Rep,1,0
+13,service-manager,Service Manager,1,0
+14,sales-manager,Sales Manager,1,0
+15,finance-administrator,Finance Administrator,1,0
+16,development-administrator,Development Administrator,1,0
+17,client,Client,1,0
+18,reserved,Reserved,0,0

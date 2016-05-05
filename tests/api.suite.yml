@@ -1,0 +1,11 @@
+class_name: ApiTester
+modules:
+    enabled:
+        - Db
+        - Asserts
+        - Laravel5:
+            environment_file: .env.codecept
+        - REST:
+            depends: PhpBrowser
+            url: 'http://b2b.localhost/tsi/admin/a/p/'
+        - \Helper\Api

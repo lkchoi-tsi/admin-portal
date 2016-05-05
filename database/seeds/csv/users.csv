@@ -1,0 +1,81 @@
+id,first_name,last_name,email,password,employee_id,extension,work_phone,cell_phone,manager_id,wp_id
+1,Todd,Krovitz,todd.krovitz@townsquaremedia.com,$2y$10$YQnu8rpKbHyRweiw90S9f.bfedJk6XWNHUcjKSm./9qu6odIr0VFy,,,(704) 469-4123,(980) 475-2847,,2514
+2,Ryan,Misenar,ryan.misenar@townsquaremedia.com,$2y$10$S3SFvBLR.si8oYiNgPPo7OhaLu/Q1ZvUMtzHrYoCLBlwFzCqL0LBW,,,(360) 601-6832,(360)-601-6832,,2524
+3,Josh,Pate,josh.pate@townsquaremedia.com,$2y$10$aDiLvtt6g.CmHIdl22gP4Oe6jrLfTp7jCJlYMkpxB2vloeCfgaRJy,,,(704) 469-4130,(980) 475-1818,,2516
+4,Tim,Pirrone,tim.pirrone@townsquaremedia.com,$2y$10$Xzny6vj71geksxBSBAKvTunNqB5kGvHbH8UziLVyrmwtupwFtzM9C,,,(704) 469-4115,(980) 475-0962,,2992
+5,Nick,Rico,nick.rico@townsquaremedia.com,$2y$10$f1S8daf84LhFYmAWRX7iOuRd0zw3n8xnfpLJqAljPdcGqTY5hL6bq,,,(704) 469-4137,(480) 650-3562,,2624
+6,Brian,Dickerson,brian.dickerson@townsquaremedia.com,$2y$10$88LSepx5WBzpotGsEVOOYepOguADc1BRO.NOWIa7KFl9.rTjw0zoi,,,,(757) 705-0447,,2529
+7,Leia,Vachon,leia.vachon@townsquaremedia.com,$2y$10$8Ww/CcJysMCZCBxVys6TUObXVGrhaEE0JHck0MNL4tRgjmK16puqa,,,,(980) 253-9510,,2626
+8,Aksel,Gulukyan,aksel.gulukyan@townsquaremedia.com,$2y$10$3vvRB1tNr9MvGVWrQfC7kedTZw6Eko3BrKYpsqL8n5SETJTPPMEc2,,,,(718) 344-9943,,11117
+9,Ammar,Ayube,ammar.ayube@townsquaremedia.com,$2y$10$QyaxezJZIC4mPT3s.lAvLO/hfAFaR1yC3QAkjMXhPBvx8vwHNaxZa,V07291,5107,,,6,
+10,Heather,Barb,heather.barb@townsquaremedia.com,$2y$10$64FqhWL4O1ulIEChLaQUqerlU2WFhZP7v9D0FhgkruA7Tk4RuewFO,C07148,5121,,,5,
+11,Adam,Barbee,adam.barbee@townsquaremedia.com,$2y$10$nCMmCNu1emUE/bJ.mSswtOsFDd1w8u6ET9sqDtkAfsGXull4d13YK,M06828,,,,7,9256
+12,Wayne,Bass,wayne.bass@townsquaremedia.com,$2y$10$lHhgHhMjsP9k2pyAz.jR1uerm0g5BbFvxXCw68OYuKCghTPP/5NUS,M07212,5119,,,7,11263
+13,Jaricka,Berger,jaricka.berger@townsquaremedia.com,$2y$10$x8hcYk.PATrRXdn7OtoTJeZkccjDr1KiFmBxUUO/VQKpQWHV4EPtO,C07131,,,,5,10741
+14,Ross,Blackstock,ross.blackstock@townsquaremedia.com,$2y$10$nvHeR/Ro9GrM6AQ9j8Hzf.3W5O8JG7Y9jgR5I1TUzCfwGF2JhuVqK,F07421,5093,,,6,
+15,Skyela,Campbell,skyela.campbell@townsquaremedia.com,$2y$10$zxPMqCCuob6bTnSa8AUPSuCWrWk1fizz4ylICQFcdiB1pCyJ71xVW,J06585,5123,,,7,7771
+16,Jordan,Christoff,jordan.christoff@townsquaremedia.com,$2y$10$ITy/EL4T4MNpD8Vhk6a82OXj4k50N2hGpi7WdABmnzXSnuTE5CjA.,U07122,5023,,,5,10740
+17,Garrett,Clark,garrett.clark@townsquaremedia.com,$2y$10$tHGIx5PG5x.MHjAXN.btqOEK51JlCdL/tCYaeHhWUkQp4.Z5QAZcW,K06850,,,,6,9258
+18,Heather,Clark,heather.clark@townsquaremedia.com,$2y$10$ZMq/JEAtsD1ZVfu15O6N5.Sdu5wqVdV2UfzDRAhGqP5O62Wdz2K0e,L07235,,,,6,
+19,Jess,Cocchiara,jess.cocchiara@townsquaremedia.com,$2y$10$NIVwmMJ45Dc99usMv21WUO6A3X5ZJ9DfyL5e6jU75CHU/J7ZdZSCe,Z07343,5010,,,7,
+20,Ryan,Daly,ryan.daly@townsquaremedia.com,$2y$10$T4cwgo/0ZuGv8Jf1fVfxmuPeeKG10LlTdXSvYM9yjL4cRPslgogEi,E04756,5066,,,5,2522
+21,Mike,DeLaCruz,mike.delacruz@townsquaremedia.com,$2y$10$7nOxxIkmx.0it3G9fB9y4.vxxZn7xr7mQfhGoODvOY88ZsasQ0Mxe,L07427,5112,,,5,
+22,Mark,De Sessa,mark.de sessa@townsquaremedia.com,$2y$10$2rCQ6F3.suQPiOCe3m2o9OquQf0FYre5GsN9cSCnIQP8Vt.LYEV7a,G06486,,,,5,
+23,Kaleigh,Earle,kaleigh.earle@townsquaremedia.com,$2y$10$xSnmDRlBGm4/p4E5qN/EK.F7tIkKFjpBBjMyniDih4u2ErONM7sb2,J07425,5087,,,7,
+24,Sheryl,Fleming,sheryl.fleming@townsquaremedia.com,$2y$10$TukQ.l6AsmLMZgueJrX/f.sHwtiRFOZm1qqbTuUmZKHTXBOUFP7FK,A06768,5133,,,7,8659
+25,Kristin,Geppert,kristin.geppert@townsquaremedia.com,$2y$10$SuT2F0Ov4Lg.mm8HSCrBaeD9/wjS6ySxiS02ZJVJosnpW3kwCPkAi,I06944,5083,,,5,9744
+26,Erika,Guerrero,erika.guerrero@townsquaremedia.com,$2y$10$PsZ3NYd6TG7USwktBJdZpup0x3YYcNHXK3yDpFjE2b1j5GRsfNQL2,D07347,5098,,,5,
+27,Alex,Hagen,alex.hagen@townsquaremedia.com,$2y$10$T.A3Bilmz7cHsOk0AoPPU.lP5EYr9xdFE5VqitVYkGPRu7bu6xQa.,X05349,,,,7,4373
+28,William,Judd,william.judd@townsquaremedia.com,$2y$10$GiwLHY1A6GJUe/Sz6g5u9Orp5REnerlXcviv3ZJ2qktERObQ8DeJK,T07385,5101,,,7,
+29,Vladimir,Males,vladimir.males@townsquaremedia.com,$2y$10$H9QyHiydqR5Uzbz6nuwa..EDjxhbtNKtwpbpdIjG0BLzvaCbAYQEu,A05448,,,,6,5010
+30,Shawn,Mitcham,shawn.mitcham@townsquaremedia.com,$2y$10$kynWroMPVpLWjbupv1g6Ne917QHwmKcgaEqW6KXPJfqjfLBywepA.,P07262,5014,,,5,
+31,Lesley,Mitchell,lesley.mitchell@townsquaremedia.com,$2y$10$Lh/8rrhIfumDFih6FEM/Y.uY2sXkQU.dMUllTWiKphgyGUp/8M3iy,G06294,5111,,,7,6109
+32,Michael,Moran,michael.moran@townsquaremedia.com,$2y$10$jPhbl/mf.3sZmvjZwwf/LuFZ/KlcQcnaNsfZI2w0LWf9nrJ5NBHmi,R07023,,,,6,10224
+33,Thomas,Muratore,thomas.muratore@townsquaremedia.com,$2y$10$DIzkGy530U1wu1C26aWt6uv0K9n/1IG0yw4tEMf/8MYHtWHAYHPvS,E07300,5127,,,5,
+34,Jake,Nager,jake.nager@townsquaremedia.com,$2y$10$3vaRhpjGYWjlFz4FkAQ2dOrdDeltSpeM9VcMurVjhUgYT6UguYrue,B06817,,,,7,
+35,Jericha,Nichols,jericha.nichols@townsquaremedia.com,$2y$10$.mUUFiPCbxWGekf5aBjWYOQC6W5ywIqIbe3SRyKmecswfV.C4hbPq,B07297,5047,,,7,
+36,Eric,Ormsbee,eric.ormsbee@townsquaremedia.com,$2y$10$Wa7SHWSA653LkygCCx9W1uxVARw9F8DgCl5DCQP/IB2At7V6UHcei,N06181,5107,,,6,5571
+37,Philip,Perry,philip.perry@townsquaremedia.com,$2y$10$kHIoEZX.fjHuZjlz99OJuut/9TJ6ZshMy368w/37.rUXOuFdq3416,B07345,,,,5,
+38,Lauren,Pierce,lauren.pierce@townsquaremedia.com,$2y$10$iu2o1IjuEsRSymDgTrrInenTiOxc7VMErqsozm1urnu1k0xbfNP8u,L07379,,,,6,
+39,Dan,Plunkett,dan.plunkett@townsquaremedia.com,$2y$10$6AEnKCC7WYblUlFDW6yW9.EfpAN36X.hCv84byjgVEKB817oc3ZJS,C07346,5024,,,6,
+40,Sean,Ryan,sean.ryan@townsquaremedia.com,$2y$10$mA7DHaSQGiZamDMTsPjb3eXG.JlA4OzBXuUIDZx61ys6zDWa4pj66,P07022,,,,6,9971
+41,Lindsey,Schievink,lindsey.schievink@townsquaremedia.com,$2y$10$FGcQRy9RbJp5GFP6WeoHJ.9B3js9CGzVVPdK9vcJLzW2yoeJ7yG7i,V07219,5136,,,7,11262
+42,Ashley,Todd,ashley.todd@townsquaremedia.com,$2y$10$rmk310NC4.hzyakifgzLsO.nGdcSyDZDCYCLdkg2ekTvI7N6OAbAS,M06852,,,,5,9254
+43,Chris,Tran,chris.tran@townsquaremedia.com,$2y$10$5foqQSnSRzjNmy2B3UOapOIdLa1x8RjpOZDTE5WyOu.GAgGSqw6OS,V07267,,,,7,
+44,Jay,Tremmel,jay.tremmel@townsquaremedia.com,$2y$10$xpWrPePClQBWJKhkOCgLk.Klp1L3nwIp3TZTa5pYpZqeUX9d7.gF.,F07301,5099,,,7,
+45,Joey,Vachon,joey.vachon@townsquaremedia.com,$2y$10$8F.BcKxkWCzb3Af4IJmWEuYQ2luID7kpsm.Uq1cnR/9ldCIXBKyvi,H05407,5067,,,6,4628
+46,Meredith,Walsh,meredith.walsh@townsquaremedia.com,$2y$10$6wjqkAXdtvNlhxqPc6YWlOOEq86UUFKXhLqzvVWlorHf7qf2Y8WAS,Y07030,,,,5,10226
+47,Matt,Whiteside,matt.whiteside@townsquaremedia.com,$2y$10$bsCgORhm9630Mw2tic8Itu7hKqb6yBgz7qwKPhNuMh9lYMBCzQMgi,U07290,,,,6,
+48,Rebeca,Anderson,rebeca.anderson@townsquaremedia.com,$2y$10$ueBcRKtS1jzXDikD25VFg.RowtDnPVg3/X.1lLOwL5RhSJBSuW.ZW,B06769,,,(810) 577-1155,2,8656
+49,Jason,Bailey,jason.bailey@townsquaremedia.com,$2y$10$al2C2CLdKnGsshyXTPjWuuW3K7qSAEEE8k/ep4vevvzNlNZKQr5DO,C05114,,,(903) 521-6398,8,3310
+50,Michelle,Batchelor,michelle.batchelor@townsquaremedia.com,$2y$10$Mgwd/QiTvmCtYxe.bEIOtOJE7gHyUJmFPB06sHdMPzu2LYt9lxhZ6,U07026,,,(517) 927-0894,2,10229
+51,Calla,Boley,calla.boley@townsquaremedia.com,$2y$10$HNX.YEdqKAJKmopkJpaENeILA7IqQGQQ5J.cNKVFUHZ/CwEjPo.EW,N07213,,,(309) 429-0851,8,11255
+52,Irene,Cordova,irene.cordova@townsquaremedia.com,$2y$10$pQ4lx0Y4Byoh8Alc5vagS.Iezef6DkauaZrMK8wdsqTt.9Me1O47q,S07216,,,(915) 242-3111,8,11256
+53,Leah,Dixon,leah.dixon@townsquaremedia.com,$2y$10$rtSAHmD0B5FmMI2M.Cg08OhSF.N1.RcPkfV0dDtGI5SYURhT/lYMy,N06853,,,(815) 275-2358,8,9253
+54,Janet,Fermo,janet.fermo@townsquaremedia.com,$2y$10$v7R4wh/9NtUQVGcZFtRxNuDKnbPmaUSM9d1stQcy2cv9MBPq.doHO,J07401,,,,8,
+55,Tara,Gelsomino,tara.gelsomino@townsquaremedia.com,$2y$10$PTVvfQ7Nxlw1cKJSrehb7.zNeIj.Red.AZC5efrNE1Jgy58RpC28K,,,,,8,
+56,Janette,Hammond,janette.hammond@townsquaremedia.com,$2y$10$r1v2pC08MwJXZHIVtWAMtO2AmGbYNgdB5bKALLy98OLhpo.i3ptle,M06972,,,(518) 688-5868,8,9742
+57,Angie,Hauser,angie.hauser@townsquaremedia.com,$2y$10$mEvun0ZAHcfDr5QQ0tiqx.TYYmRirBzUyoL4PTW9PGZxD/Afk5a3W,M06516,,,(970) 219-7506,2,7281
+58,Chad,Hobot,chad.hobot@townsquaremedia.com,$2y$10$jmDLU5FONwOm6lVjgDd2HuYCAxkcBQM5orXt09xa/Do06nzkTDz3.,J06969,,,(763) 244-4058,2,9749
+59,Thom,Jennings,thom.jennings@townsquaremedia.com,$2y$10$z4ZfbgrEiAdvQQdc3c4DV.b8KbE.WCNHuN/MY2IoKqaBzWdMcICfa,P07214,,,(716) 255-1454,8,11259
+60,Nicole,Kearney,nicole.kearney@townsquaremedia.com,$2y$10$QKEZ0KbB1G9zMmgrkTxsGuR00B05tIvV6dN5aUOqItpTMh1CGjveq,N06949,,,(848) 333-4867,2,9736
+61,Ryan,London,ryan.london@townsquaremedia.com,$2y$10$T77ilHy3VxfhXF1584CKS.zIyDCjDbj1yddgoHGL.SbqFEu0Eueyy,R07407,,,,2,
+62,Patrick,McShea,patrick.mcshea@townsquaremedia.com,$2y$10$ErourLXOWyTUuAgTO/HtCuTqaMWPbhbyVhYm/6XDGUxI0qce7u9vu,H06679,,,(217) 853-5410,2,8256
+63,Mallory,Maxwell,mallory.maxwell@townsquaremedia.com,$2y$10$3MoQK5m0ZDubfWXdt1B2UuxVyUvR4OjM7zdMeTHv9zE7M1SHIjoBa,A07032,,,(806) 543-7656,8,10231
+64,Jillian,May,jillian.may@townsquaremedia.com,$2y$10$QVulNjGp98qfqgYaaZaXhuZmFYoFK83bi5A3h7HN6biWcE7kTSqjC,T07217,,,(616) 366-1437,2,
+65,Casey,Miller,casey.miller@townsquaremedia.com,$2y$10$EG9RK33eJryzgkIa9PoBg.lz60Rrv3b1uj3pNB1P0CaAqXVnlAHFy,J06105,,,(337) 278-0913,2,5247
+66,Ashley,Olson,ashley.olson@townsquaremedia.com,$2y$10$v5mY17EShL/7AiCcqNpDf.CT9ScfN8seFZEeKAixnvctVSbJwgxBG,R07215,,,(856) 261-4885,2,11260
+67,Chasity,Reach,chasity.reach@townsquaremedia.com,$2y$10$sxZKmhibHR1GkEtNCSJ//ew3bYZEcvFG04JGiD0p.2dRohxKIsbBy,P06950,,,(205) 283-3032,2,9735
+68,Mackenzie,Schutter,mackenzie.schutter@townsquaremedia.com,$2y$10$H/R.u3r.ctYNEnRLuBE4OuV2cjDK/o4KTw5j/S2Nv3sU0IlqpTiSq,M07308,,,(269) 599-3633,8,
+69,John,Tellier,john.tellier@townsquaremedia.com,$2y$10$Mpxuq23dHWlAfckvjtzJ..au9Hw8XkoNlWcVPRkRX02nOZRUcGdBS,M06948,,,(603) 828-9950,8,9738
+70,Lisa,Thomas,lisa.thomas@townsquaremedia.com,$2y$10$xZuSKZO4NcDH7WuJaoHbFu234CtwTLX86jf/lngW7ZeOJeewhcFOS,H05143,,,(401) 241-9914,8,3559
+71,Shane,Tolman,shane.tolman@townsquaremedia.com,$2y$10$nyHm5vMLv0Uo0eNiI4YjMOqMT3ng/pKsLCx1R5YBwecXPvSP8pKvK,U07218,,,(208) 954-3291,2,11257
+72,Joe,Waldowski,joe.waldowski@townsquaremedia.com,$2y$10$ZBhvzp055vTFmJIvRqeeduPCQNuy0pWSZuzKuFISrrCsryBVRgtaK,V06859,,,(607) 725-8420,8,9252
+73,Larry,Walsh,larry.walsh@townsquaremedia.com,$2y$10$Q07QBMCv34rEnzElc60SduVKyYYNSO6WcZzk7JTZA8VFc1Wj5ttSS,D07299,,,(802) 440-2865,8,
+74,Andrew,Woolford,andrew.woolford@townsquaremedia.com,$2y$10$y.uPbDZ/aFtwCsVTMzkpbOKi0XLLjsBvx3OEAWEp3PYirJC2RwbIu,J06945,,,(207) 219-9927,8,9741
+75,Alex,Zundel,alex.zundel@townsquaremedia.com,$2y$10$6FQmhP10wTgaLCuUhGSXMuiCn8T9DrWnmQAAH0AHn74FbUxM6QXeC,M06108,,,(406) 220-0230,,5246
+76,David,Callahan,david.callahan@townsquaremedia.com,$2y$10$gnKqgoov49lJSaaHX.8Bqu.vsLb3g9.76NiQPLWFEfJVbDtlHxGQi,K06202,,(704) 665-0611,(856) 816-7981,1,1781
+77,May,Ly,may.ly@townsquaremedia.com,$2y$10$WKc46J/oWfAcrjVJumn9E.ZShRJ7fKmCMTzNl1To/uikWXSFm1vE6,K05098,5077,(704) 665-0611,(704) 578-5968,1,3309
+78,Marc,Notaro,marc.notaro@townsquaremedia.com,$2y$10$0nDxbAGvocp.Xky1ZcHZU.I6dwqC/Cllg3V3AGSQ3pnV2vkqn76/W,E06100,,,(716) 449-1997,1,5248
+79,Sara,Ryan,sara.ryan@townsquaremedia.com,$2y$10$OSnowCne2ksRtDheiokCdO0KXp0VCnrN3dpzVUwg6KF01iGoFZgbO,W06692,5128,(704) 469-4150,,,8258
+80,Katrina,Smith,katrina.smith@townsquaremedia.com,$2y$10$ngca98mD6P8rUk/IJ7RxOO4D1.OCLT6t3KcHReg3cbpd3Wiajlyyu,X06693,5016,(704) 469-4128,,,8259

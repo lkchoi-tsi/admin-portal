@@ -1,0 +1,7 @@
+migration,batch
+2014_10_12_000000_create_users_table,1
+2014_10_12_100000_create_password_resets_table,1
+2016_04_16_174819_create_phones_table,1
+2016_04_17_052918_create_management_table,1
+2016_04_17_063515_create_teams_table,1
+2016_04_17_071900_create_users_teams_table,1
