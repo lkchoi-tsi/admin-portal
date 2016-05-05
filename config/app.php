@@ -156,9 +156,9 @@ return [
         Tsi\Providers\EventServiceProvider::class,
         Tsi\Providers\RouteServiceProvider::class,
 
-        Collective\Html\HtmlServiceProvider::class,
-        Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class,
-        Proengsoft\JsValidation\JsValidationServiceProvider::class,
+        // Collective\Html\HtmlServiceProvider::class,
+        // Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class,
+        // Proengsoft\JsValidation\JsValidationServiceProvider::class,
     ],
 
     /*
@@ -204,10 +204,10 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Form' => Collective\Html\FormFacade::class,
-        'Html' => Collective\Html\HtmlFacade::class,
+        // 'Form' => Collective\Html\FormFacade::class,
+        // 'Html' => Collective\Html\HtmlFacade::class,
 
-        'JSValidator' => Proengsoft\JsValidation\Facades\JsValidatorFacade::class,
+        // 'JSValidator' => Proengsoft\JsValidation\Facades\JsValidatorFacade::class,
     ],
 
 ];
