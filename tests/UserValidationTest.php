@@ -87,14 +87,4 @@ class UserValidationTest extends TestCase
         $saved = $duplicate->save();
         $this->assertFalse($saved);
     }
-
-    public function testCreateNewUserApiCall()
-    {
-        $response = $this->call('POST', '/api/v1/users', [
-            'first_name' => 'Chris',
-            'last_name' => 'Ireland',
-            'email' => 'chris.ireland@townsquaremedia.com',
-        ]);
-        \Log::info($response);
-    }
 }
