@@ -171,12 +171,23 @@
                 </div>
             </div>
 
-            <div class="form-group text-right">
-                <div class="col-lg-12">
+            <div class="form-group">
+
+                <div class="col-lg-6 col-lg-offset-2">
+                    <div class="input-group">
+                        <input type="text" id="pw-reset-input" class="form-control" readonly>
+                        <span class="input-group-btn">
+                            <button id="pw-reset-btn" type="button" class="btn btn-secondary"><i class="fa fa-key"></i></button>
+                        </span>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 text-right">
                     <button type="submit" class="btn btn-primary">Save Changes</button>
                 </div>
             </div>
         {!! Form::close() !!}
+
     </div>
 </div>
 <div class="row">
@@ -270,6 +281,7 @@
 @parent
 {!! JSValidator::formRequest('Tsi\Http\Requests\SaveUserRequest', '#edit-user-form') !!}
 {!! Html::script('/js/app/users/rbac.js') !!}
+{!! Html::script('/js/app/users/edit.js') !!}
 <style type="text/css">
     #permissions-legend li button { height: 18px; }
     .text-muted { color: #aaa; }

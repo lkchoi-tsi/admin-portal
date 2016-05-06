@@ -207,6 +207,7 @@ return [
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
 
+        'JS' => Laracasts\Utilities\JavaScript\JavaScriptFacade::class,
         'JSValidator' => Proengsoft\JsValidation\Facades\JsValidatorFacade::class,
     ],
 
