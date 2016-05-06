@@ -25,7 +25,6 @@ class SaveUserRequest extends Request
     public function rules()
     {
         $id = $this->route('users');
-        \Log::info($this->all());
         return (new User)->rules($id);
     }
 }
