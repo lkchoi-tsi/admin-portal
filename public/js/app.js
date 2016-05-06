@@ -13727,7 +13727,7 @@ $('form.ajax').submit(function(e) {
 
 function url(path) {
     var prefix = '';
-    return prefix + path;
+    return prefix + path + '?api_token=' + php.api_token;
 }
 
 //# sourceMappingURL=app.js.map
