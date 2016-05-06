@@ -23,19 +23,19 @@ if (! function_exists('array_filter_recursive')) {
 }
 
 if (! function_exists('api_url')) {
-    function api_url($action, array $params = [], array $query = []) {
+    function api_url($action, $params = [], array $query = []) {
         $query = ['api_token' => auth()->user()->api_token];
         return url($action, $params) . '?' . http_build_query($query);
     }
 }
 if (! function_exists('api_route')) {
-    function api_route($action, array $params = [], array $query = []) {
+    function api_route($action, $params = [], array $query = []) {
         $query = ['api_token' => auth()->user()->api_token];
         return route($action, $params) . '?' . http_build_query($query);
     }
 }
 if (! function_exists('api_action')) {
-    function api_action($action, array $params = [], array $query = []) {
+    function api_action($action, $params = [], array $query = []) {
         $query = ['api_token' => auth()->user()->api_token];
         return action($action, $params) . '?' . http_build_query($query);
     }

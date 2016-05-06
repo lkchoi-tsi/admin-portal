@@ -17,7 +17,7 @@
         {{-- Edit Team --}}
         {!! Form::model($team, [
             'id' => 'edit-team-form',
-            'url' => route('api.v1.teams.update', [$team->id]),
+            'url' => api_route('api.v1.teams.update', [$team->id]),
             'method' => 'put',
             'class' => 'form-horizontal ajax'
         ]) !!}
@@ -77,7 +77,7 @@
         {{-- Edit User Form --}}
         {!! Form::model($user, [
             'id' => 'edit-user-form',
-            'url' => route('api.v1.users.update', [$user->id]),
+            'url' => api_route('api.v1.users.update', [$user->id]),
             'method' => 'put',
             'class' => 'form-horizontal ajax'
         ]) !!}
@@ -185,7 +185,7 @@
     <div class="col-sm-12">
         {!! Form::model($user, [
             'id' =>'user-rbac-form',
-            'url' => route('api.v1.users.roles.store', $user->id),
+            'url' => api_route('api.v1.users.roles.store', $user->id),
             'method' => 'post',
             'class' => 'ajax'
         ]) !!}
