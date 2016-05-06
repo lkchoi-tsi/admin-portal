@@ -1,4 +1,5 @@
 var elixir = require('laravel-elixir');
+require('laravel-elixir-vueify');
 
 /*
  |--------------------------------------------------------------------------
@@ -32,6 +33,8 @@ elixir(function(mix) {
         'components/notification.js',
         'main.js',
     ], 'public/js/app.js')
+
+    .scripts(['roles/index.js'], 'public/js/app/roles/index.js')
 
     .phpUnit()
 
