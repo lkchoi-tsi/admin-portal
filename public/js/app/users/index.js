@@ -4,11 +4,10 @@ $(document).ready(function() {
     $('#users-datatable').DataTable({
         serverSide: php.usersDatatable.serverSide,
         ajax: php.usersDatatable.ajax,
-        deferRender: true,
-        pageLength: 20,
+        deferRender: false,
+        pageLength: 25,
         ext: { errMode: 'throw' },
         dom: 'Bfrtip',
-        // lengthMenu: [[10,20,50,100,-1],[10,20,50,100,'All']],
         buttons: [
             'copy',
             { extend: 'csv', title: "tsi-employee-list" },

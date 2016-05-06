@@ -12,6 +12,7 @@ use Illuminate\Foundation\Auth\Access\Authorizable;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Tsi\AppModel;
+use Tsi\Contracts\Dropdownable;
 use Tsi\Permission;
 use Tsi\Role;
 use Tsi\Team;
@@ -22,7 +23,8 @@ use Tsi\UserRoleAssignment;
 class User extends AppModel implements
     AuthenticatableContract,
     AuthorizableContract,
-    CanResetPasswordContract
+    CanResetPasswordContract,
+    Dropdownable
 {
     use SearchableTrait, Authenticatable, Authorizable, CanResetPassword;
 

@@ -11,13 +11,11 @@
 |
 */
 
-URL::forceRootUrl(env('APP_URL'));
+// URL::forceRootUrl(env('APP_URL'));
 
-Route::get('/', function () {
-    return redirect('/users');
-});
+Route::auth();
 
-Route::group(['prefix' => '/api/v1/'], function() {
+Route::group(['prefix' => '/api/v1/', 'middleware' => 'auth:api'], function() {
     Route::resource('users.roles', 'Api\UsersRolesController');
     Route::resource('users', 'Api\UsersController');
     Route::resource('roles', 'Api\RolesController');
@@ -25,7 +23,8 @@ Route::group(['prefix' => '/api/v1/'], function() {
     Route::resource('roles.permissions', 'Api\RolesPermissionsController');
 });
 
-Route::group([], function () {
+Route::group(['middleware' => 'auth:web'], function () {
+    Route::get('/', function () { return redirect('/users'); });
     Route::resource('users', 'Web\UsersController');
     Route::resource('roles', 'Web\RolesController');
     Route::resource('teams', 'Web\TeamsController');

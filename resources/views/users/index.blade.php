@@ -7,7 +7,7 @@
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <div class="text-center" style="margin-bottom:-24px;">
+        <div class="text-center">
             <button id="new-user-btn" type="button" class="btn btn-md btn-success" data-toggle="modal" data-target="#create-user-modal">
                 <i class="fa fa-plus"></i> New User
             </button>
@@ -57,7 +57,8 @@
                 {{-- Create User Form --}}
                 {!! Form::open([
                     'id' => 'create-user-form',
-                    'url' => route('api.v1.users.store'),
+                    'url' => api_route('api.v1.users.store'),
+                    // 'url' => route('api.v1.users.store') . '?' . http_build_query(['api_token' => auth()->user()->api_token]),
                     'method' => 'post',
                     'class' => 'form-horizontal ajax'
                 ]) !!}
