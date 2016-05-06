@@ -7,7 +7,7 @@
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <div class="text-center" style="margin-bottom:-24px;">
+        <div class="text-center">
             <button id="new-user-btn" type="button" class="btn btn-md btn-success" data-toggle="modal" data-target="#create-user-modal">
                 <i class="fa fa-plus"></i> New User
             </button>
