@@ -57,7 +57,8 @@
                 {{-- Create User Form --}}
                 {!! Form::open([
                     'id' => 'create-user-form',
-                    'url' => route('api.v1.users.store'),
+                    'url' => api_route('api.v1.users.store'),
+                    // 'url' => route('api.v1.users.store') . '?' . http_build_query(['api_token' => auth()->user()->api_token]),
                     'method' => 'post',
                     'class' => 'form-horizontal ajax'
                 ]) !!}

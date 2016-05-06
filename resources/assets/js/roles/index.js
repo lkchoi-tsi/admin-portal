@@ -173,5 +173,3 @@ $('#new-role-btn').click(function() {
     crud.init();
     $('#role-modal').modal('show');
 });
-
-//# sourceMappingURL=index.js.map

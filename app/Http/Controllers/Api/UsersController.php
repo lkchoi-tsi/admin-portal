@@ -5,7 +5,6 @@ namespace Tsi\Http\Controllers\Api;
 use Illuminate\Http\Request;
 use Tsi\Http\Controllers\Controller;
 use Tsi\Http\Requests;
-use Tsi\Http\Requests\SaveUserRequest;
 use Tsi\Http\Requests\DataTableRequest;
 use Tsi\Http\Requests\SaveUserRequest;
 use Tsi\Phone;
