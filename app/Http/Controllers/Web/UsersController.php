@@ -118,6 +118,8 @@ class UsersController extends Controller
 
             $team = $user->team;
 
+            \JS::put(['user' => $user]);
+
             return view('users.edit', compact(
                 'user',
                 'user_ids',

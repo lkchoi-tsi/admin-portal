@@ -21,6 +21,7 @@ Route::group(['prefix' => '/api/v1/', 'middleware' => 'auth:api'], function() {
     Route::resource('roles', 'Api\RolesController');
     Route::resource('teams', 'Api\TeamsController');
     Route::resource('roles.permissions', 'Api\RolesPermissionsController');
+    Route::post('/users/{id}/reset', 'Api\UsersController@reset');
 });
 
 Route::group(['middleware' => 'auth:web'], function () {

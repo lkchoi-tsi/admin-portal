@@ -30,6 +30,7 @@ elixir(function(mix) {
         'lib/underscore.min.js',
         'lib/selectize.min.js',
         'lib/jsvalidation.js',
+        'lib/clipboard.js',
         'lib/vue.js',
         'components/notification.js',
         'main.js',
