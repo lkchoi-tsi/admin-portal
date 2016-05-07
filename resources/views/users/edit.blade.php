@@ -177,7 +177,7 @@
                     <div class="input-group">
                         <input type="text" id="pw-reset-input" class="form-control" readonly>
                         <span class="input-group-btn">
-                            <button id="pw-reset-btn" type="button" class="btn btn-secondary"><i class="fa fa-key"></i></button>
+                            <button id="pw-reset-btn" type="button" class="btn btn-primary"><i class="fa fa-key"></i></button>
                         </span>
                     </div>
 

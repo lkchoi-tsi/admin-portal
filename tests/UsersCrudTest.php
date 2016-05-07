@@ -27,4 +27,12 @@ class UsersCrudTest extends TestCase
         $re = '/^\$2y\$10\$[a-zA-Z0-9\.\/]{53}$/';
         $this->assertEquals(1, preg_match($re, $user->password));
     }
+
+    public function testUserDropdown()
+    {
+        $this->artisan('db:seed');
+        $options = User::dropdown();
+        $count = User::count();
+        $this->assertEquals($count+2, $options->count());
+    }
 }

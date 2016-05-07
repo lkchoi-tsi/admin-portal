@@ -173,22 +173,16 @@ class User extends AppModel implements
 
     public static function dropdown()
     {
-        $results = User::selectRaw(
-            DB::raw("concat(`first_name`,' ',`last_name`) as `full_name`,`id`")
-        )->get();
+        $users = User::select(['id', 'first_name', 'last_name'])
+            ->get()
+            ->pluck('full_name', 'id');
 
-        $user_ids = [
+        $options = Collection::make([
             null => '-- Select a User --',
             0 => '&nbsp;&nbsp;&nbsp;&nbsp;'
-        ];
-        foreach ($results as $user)
-        {
-            $full_name = $user['attributes']['full_name'];
-            $id = $user['attributes']['id'];
-            $user_ids[$id] = $full_name;
-        }
+        ]);
 
-        return $user_ids;
+        return $options->merge($users);
     }
 
     public function scopeActive($query)
