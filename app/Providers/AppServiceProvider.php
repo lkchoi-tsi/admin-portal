@@ -39,6 +39,10 @@ class AppServiceProvider extends ServiceProvider
                     $user->wordpress_id = null;
                 }
             }
+            if (empty($user->api_token))
+            {
+                $user->api_token = str_random(32);
+            }
         });
 
         Role::saving(function($role) { return $role->isValid(); });
