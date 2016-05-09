@@ -175,12 +175,19 @@
 
                 <div class="col-lg-6 col-lg-offset-2">
                     <div class="input-group">
-                        <input type="text" id="pw-reset-input" class="form-control" readonly>
+                        <input type="text" id="pw-reset-input" class="form-control" value="{{ $pw_reset_link }}" readonly>
                         <span class="input-group-btn">
-                            <button id="pw-reset-btn" type="button" class="btn btn-primary"><i class="fa fa-key"></i></button>
+                            @if (!empty($pw_reset_link))
+                            <button id="pw-copy-btn" type="button" class="btn btn-info">
+                                <i class="fa fa-clipboard"></i>
+                            </button>
+                            @else
+                            <button id="pw-reset-btn" type="button" class="btn btn-primary">
+                                <i class="fa fa-key"></i>
+                            </button>
+                            @endif
                         </span>
                     </div>
-
                 </div>
                 <div class="col-lg-4 text-right">
                     <button type="submit" class="btn btn-primary">Save Changes</button>
@@ -279,7 +286,7 @@
 @stop
 @section('tail')
 @parent
-{!! JSValidator::formRequest('Tsi\Http\Requests\SaveUserRequest', '#edit-user-form') !!}
+{{-- JSValidator::formRequest('Tsi\Http\Requests\SaveUserRequest', '#edit-user-form') --}}
 {!! Html::script('/js/app/users/rbac.js') !!}
 {!! Html::script('/js/app/users/edit.js') !!}
 <style type="text/css">

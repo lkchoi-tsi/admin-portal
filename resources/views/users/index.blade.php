@@ -151,7 +151,6 @@
 @stop
 @section('tail')
 @parent
-{!! JSValidator::formRequest('Tsi\Http\Requests\SaveUserRequest', '#create-user-form') !!}
 {!! Html::script('/lib/datatables/datatables.min.js') !!}
 {!! Html::script('/js/app/users/index.js') !!}
 @stop
