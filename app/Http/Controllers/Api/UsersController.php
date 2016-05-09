@@ -4,7 +4,6 @@ namespace Tsi\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 use Tsi\Http\Controllers\Controller;
-use Tsi\Http\Requests;
 use Tsi\Http\Requests\DataTableRequest;
 use Tsi\Http\Requests\SaveUserRequest;
 use Tsi\Phone;
@@ -129,7 +128,7 @@ class UsersController extends Controller
     {
         if ($user = User::find($id))
         {
-            $token = \Password::broker(null)->createToken($user);
+            $token = \Password::broker()->createToken($user);
             return response()->json([
                 'link' => url('/password/reset/' . $token),
                 'token' => $token
