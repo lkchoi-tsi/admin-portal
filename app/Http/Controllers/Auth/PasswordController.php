@@ -287,7 +287,7 @@ class PasswordController extends Controller
     {
         $user->forceFill([
             'password' => $password,
-            'remember_token' => Str::random(60),
+            'remember_token' => str_random(60),
         ])->save();
 
         Auth::guard($this->getGuard())->login($user);
