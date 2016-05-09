@@ -31,8 +31,6 @@
 Route::get('login',                   'Auth\AuthController@showLoginForm');
 Route::get('logout',                  'Auth\AuthController@logout');
 Route::get('password/reset/{token?}', 'Auth\PasswordController@showResetForm');
-// Route::get('register',                'Auth\AuthController@showRegistrationForm');
-
 Route::post('login',                  'Auth\AuthController@login');
 Route::post('password/email',         'Auth\PasswordController@sendResetLinkEmail');
 Route::post('password/reset',         'Auth\PasswordController@reset');
