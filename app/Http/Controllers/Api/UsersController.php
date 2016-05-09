@@ -124,4 +124,18 @@ class UsersController extends Controller
         }
         return abort(404, 'Could not find user');
     }
+
+    public function reset(Request $request, $id)
+    {
+        if ($user = User::find($id))
+        {
+            $token = \Password::broker(null)->createToken($user);
+            return response()->json([
+                'link' => url('/password/reset/' . $token),
+                'token' => $token
+            ], 201);
+        }
+
+        return abort(400, 'Could not generate password token');
+    }
 }

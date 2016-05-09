@@ -118,12 +118,20 @@ class UsersController extends Controller
 
             $team = $user->team;
 
+            $reset = DB::table('password_resets')
+                ->where('email', '=', $user->email)
+                ->first();
+            $pw_reset_link = $reset ? url('/password/reset', $reset->token) : false;
+
+            \JS::put(['user' => $user]);
+
             return view('users.edit', compact(
                 'user',
                 'user_ids',
                 'roles',
                 'permissions',
-                'team'
+                'team',
+                'pw_reset_link'
             ));
         }
 
